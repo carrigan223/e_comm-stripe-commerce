@@ -7,7 +7,9 @@ export default makeStyles((theme) => ({
     boxShadow: 1,
     background: "black",
     color: "white",
-    borderBottom: "1px solid rgba(0, 0, 0, 0.12)",
+    borderBottom: "2px solid rgba(255,165,0)",
+    borderTop: "2px solid rgba(0,45,114)",
+
     [theme.breakpoints.up("sm")]: {
       width: `calc(100% - ${drawerWidth}px)`,
       marginLeft: drawerWidth,
@@ -18,6 +20,7 @@ export default makeStyles((theme) => ({
     alignItems: "center",
     display: "flex",
     textDecoration: "none",
+    fontWeight: "700",
   },
   image: {
     marginRight: "10px",
