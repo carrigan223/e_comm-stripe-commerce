@@ -17,6 +17,7 @@ export default makeStyles((theme) => ({
     },
   },
   paper: {
+    border: "2px solid orange",
     marginTop: theme.spacing(3),
     marginBottom: theme.spacing(3),
     padding: theme.spacing(2),
