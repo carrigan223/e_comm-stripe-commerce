@@ -25,18 +25,19 @@ const Product = ({ product, onAddToCart }) => {
             <Typography variant="h5" gutterBottom className={classes.title}>
               {product.name}
             </Typography>
-
+          </div>
+          {/* <div>
             <Typography
               variant="body2"
               color="textSecondary"
               className={classes.description}
               dangerouslySetInnerHTML={{ __html: product.description }}
             />
-          </div>
+          </div> */}
         </CardContent>
         <CardActions disableSpacing className={classes.cardActions}>
           <Typography variant="h5">
-            {product.price.formatedWithSymbol}
+            {product.price.formatted_with_symbol}
           </Typography>
           <IconButton
             aria-label="Add to Cart"

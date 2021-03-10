@@ -7,12 +7,17 @@ export default makeStyles(() => ({
   cardContent: {
     display: "flex",
     justifyContent: "space-between",
+    flexDirection: "column",
   },
-  cartActions: {
+  cardActions: {
+    display: "flex",
     justifyContent: "space-between",
   },
   buttons: {
     display: "flex",
     alignItems: "center",
+  },
+  Remove: {
+    background: "#FF5910",
   },
 }));
